@@ -1,0 +1,71 @@
+*{
+ padding: 0;
+ margin: 0;
+ color: rgb(205, 116, 7);
+box-sizing: border-box;
+
+}
+body{
+    background-image: url(/asets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Red Rose", cursive;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    font-size: 22px;
+    font-weight: 800;
+
+}
+nav button{
+    font-size: 20px;
+    margin-right: 40px;
+    font-weight: 900;
+    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(243, 98, 20);
+    color: aliceblue;
+}
+nav button:hover{
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+
+}
+main {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 4px;
+    color: rgb(222, 137, 35);
+}
+main button{
+    font-size: 30px;
+    font-weight: 800;
+    background-color:rgb(243, 98, 20);
+    color: aliceblue; 
+
+}
+main button:hover{
+    font-size: 35px;
+    color: black;
+}
+footer{
+    text-align: end;
+    
+}
+nav img{
+    margin-left: 60px;
+    border-radius:50%;
+    font-size: 30px;
+font-weight: 400;
+}
